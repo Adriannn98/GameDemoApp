@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+
+<ul>
+    {% for monster in all_monsters %}
+        <li>{{ monster }}</li>
+    {% endfor %}
+</ul>
+{% endblock %}
